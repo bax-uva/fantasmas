@@ -1,0 +1,581 @@
+@import url('https://fonts.googleapis.com/css?family=Yrsa');
+* {
+	font-family: 'Helvetica', sans-serif;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	/*-webkit-hyphens:auto;
+    -moz-hyphens:auto;
+      -ms-hyphens:auto;
+  hyphens:auto;*/
+	margin: 0;
+	padding: 0;
+}
+body {
+	min-width: 100vw;
+  min-height: 100vh;
+}
+
+img {
+	max-height: 100%;
+    max-width: 100%;
+}
+a {
+	text-decoration: none;
+	font-size: inherit;
+	font-family: inherit;
+	color: inherit;
+}
+i {
+	font-family: inherit;
+}
+/*typography*/
+
+body {
+	font-family: sans-serif;
+}
+h1, h2 {
+	text-transform: uppercase;
+}
+h2 {
+	font-weight: 600;
+}
+h3 {
+	font-weight: 400;
+}
+p, p-texto {
+  margin-bottom: 1em;
+	text-align: justify;
+	text-justify: auto;
+}
+p {
+	line-height: 1.5em;
+}
+
+section p {
+  margin-top:1em;
+}
+.cursiva, {
+	font-size: 1.2em;
+	font-family: 'Yrsa', serif;
+	line-height: 1.3em;
+}
+
+
+#sans-serif {
+  font-family: 'Helvetica', sans-serif;
+}
+
+h1 {
+	font-size: 1.1em;
+}
+h2 {
+	font-size: 0.9em;
+}
+h3 {
+	font-weight: bold;
+}
+.p-small {
+	font-size: 0.75em;
+}
+/*layout*/
+
+body {
+	display: flex;
+	flex-direction: row;
+	padding: 1em;
+}
+.indice {
+	width: 20%;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+.indice-box {
+	position: fixed;
+	width: 18%;
+}
+.principal {
+	display: flex;
+	flex-direction: column;
+	width: 80%;
+	margin-left: 1em;
+}
+.texto {
+	width: 70%;
+}
+.notas {
+	width: 30%;
+	padding-left: 1em;
+	text-align: justify;
+}
+#outer-iframe {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 25px;
+	height: 0;
+}
+#outer-iframe iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+}
+.vid {
+	width: 70%;
+}
+.album {
+	display: flex;
+	flex-direction: row;
+	overflow: scroll;
+}
+
+.padding-1 {
+  padding: 1em;
+}
+.top {
+	justify-content: space-around;
+}
+.position-center {
+	align-self: center; margin: auto;justify-content: center;
+}
+.position-end {
+	align-self: flex-end;
+}
+
+.space-around-row {
+  justify-content: space-around;
+}
+
+.position-absolute {
+	position: absolute;
+}
+
+#poema-predio-alto {
+    color: red;
+    left: 52%;
+    top: 35%;
+    line-height: 200%;
+    display: flex;
+    height: 500px;
+    justify-content: space-between;
+    transform: skewY(26deg);
+}
+
+#blue:hover {
+  color: blue;
+}
+
+#ruinas-video {
+  left:26%;
+  top:60%;
+  width:15%;
+}
+
+#ruina1 {
+  background-image: url("arquivos/ruinapaisagemalegorica-reproducao.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+   
+}
+#ruina2 {
+  opacity: 0.8;
+  width: 20%;
+}
+
+@keyframes full {
+  100% {transform:scale(5);}
+}
+#ruina2:hover {
+  animation: full 5s ease-in-out;
+}
+.cygne, .cisne, .voyage, .viagem {
+  width: 40%;
+  padding: 1em;
+}
+ 
+.nota-cisne {
+  width:20%;
+}
+
+#7-dias {
+  border: 1px solid pink;
+  left:0;
+  top:0;
+}
+
+.pink-hover:hover {
+ color:rgb(255, 0, 255);  
+}
+
+.money-hidden {
+  height:300px;
+  width:100%;
+  
+}
+.money-hidden:hover {
+  height:300px;
+  width:100%;
+  background-image: url("arquivos/espaco-cinza2.jpg");
+  background-repeat: no-repeat;
+  background-position:top;
+  background-size: contain;
+  
+}
+
+
+#money-map {
+  background-image: url("arquivos/espaco-cinza2.jpg");
+  background-repeat: no-repeat;
+  background-position:top;
+  background-size: cover;
+}
+
+
+#isis {
+  min-height: 100vh;
+  background-image: url("arquivos/explosaoisis.gif");
+  background-repeat: repeat;
+  background-position:top;
+  background-size: contain;
+}
+#martelo-isis {
+  top: 40%;
+    left: 50%;
+}
+
+#cyarc {
+  left:50%;
+  top:50%;
+}
+
+#muitos-futuros {
+      left: 33%;
+    top: 20%;
+    width: 450px;
+    height: 450px;
+}
+
+.img-stretch {
+  max-width: 150%;
+}
+
+#zone {
+  background-image: url(arquivos/zona2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#wtc {
+  background-image: url(arquivos/worldtradecenter1.jpg);
+	background-size:contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#imagem-publicitaria {
+  background-image: url(arquivos/imagem-publicitaria.jpg);
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-position: center;
+
+}
+
+
+#reflexo {
+   background-image: url(arquivos/reflexo.jpg);
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-position: center;
+
+}
+
+
+#reflexo-texto {
+  color: yellow;
+}
+
+#reflexo-nota {
+  justify-content:flex-end;
+}
+
+#otimizando-tempo {
+  height: 150vh;
+   background-image: url(arquivos/otimizando-o-tempo.jpg);
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-position: center;
+
+}
+
+
+#guerra-secessao {
+  background-image: url(arquivos/guerra-de-secessao.jpg);
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#evanescence-video {
+  left: 65%;
+    top: 87%;
+    width: 20%;
+}
+
+#ruinas-renderizadas {
+  background-image: url(arquivos/ruinas-renderizadas.jpg);
+	background-size:contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#park-avenue {
+  background-image: url(arquivos/parkavenue.jpg);
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#trabalho-assalariado {
+  top: 39%;
+  left: 43%;
+  width: 200px;
+}
+
+@keyframes girando {
+  0%, 100 {transform: rotate(45deg);}
+  25% {transform: rotate(70deg);}
+  50% {transform: rotate(360deg);}
+  75% {transform: rotate(30deg);}
+  80% {transform: rotate(45deg);}
+  90% {transform: rotate(70deg);}
+}
+
+#dan-flavin {
+  top:50%;
+  left:35%;
+  animation: girando 15s infinite ease-in-out;
+}
+
+
+#do-outro-lado {
+  background-image: url(arquivos/do-outro-lado1.jpg);
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+#do-outro-lado:hover {
+   background-image: url(arquivos/do-outro-lado2.jpg);
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#espaco-cinza {
+ background-image: url(arquivos/espaco-cinza1.jpg);
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-position: center;  
+}
+
+#chinese-suburbia {
+  background-image: url(arquivos/chinese-suburbia.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;  
+}
+
+
+#cem-anos {
+  right:5%;
+  bottom:15%;
+}
+
+#janela {
+  align-items: flex-end;
+}
+.background-white {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+.smaller {
+	padding: 2em;
+}
+.img-medium {
+	width: 80%;
+}
+.img-small {
+	max-width: 25%;
+}
+.img-center {
+	margin: auto;
+}
+.img-full {
+  width: 100%;
+  height: 100%;
+}
+.img-margin {
+	margin-top: 1.2em;
+	margin-bottom: 1.2em;
+}
+.img-height-limit {
+	max-height: 70%;
+}
+.cid-capa {
+	width: 100%;
+}
+.column-full, .column-70, .column-half, .column-third, .column-fourth {
+	display: flex;
+	flex-direction: column;
+}
+.column-full{width: 100%;}
+.column-70{width: 70%;}
+.column-half{width: 50%;}
+.column-third{width: 33.3%;}
+.column-fourth{width: 20%;}
+.column-10{width: 10%;}
+ 
+.row-full, .row-70, .row-half {
+  display: flex;
+  margin: auto;
+}
+.row-full {width: 100%;}
+.row-70 {width: 70%;}
+.row-half {width: 50%;}
+
+.height100vh {
+	height: 100vh;
+}
+.video-full {
+	width: 100%;
+}
+.video-half {
+	width: 50%;
+}
+.margin-top-1 {
+	margin-top: 1em;
+}
+.margin-top-2 {
+	margin-top: 2em;
+}
+.margin-right-05 {
+	margin-right: 0.5em;
+}
+.margin-left-05 {
+	margin-left: 0.5em;
+}
+.links {
+	display: flex;
+	flex-direction: column;
+}
+.test {
+	border: 1px solid green;
+}
+/*skin*/
+
+#eternidade {
+  background-color: #00ff00;
+}
+
+:root {
+	--lightgrey: rgb(200,200,200);
+	--red: #FF0000;
+	--black: #000000;
+}
+.text-white {
+	color: white;
+}
+.img-link {
+	opacity: 0.5;
+}
+.img-link:hover {
+	opacity: 1;
+}
+
+.img-link-inverse {
+	opacity: 1;
+}
+.img-link-inverse:hover {
+	opacity: 0.5;
+}
+
+
+
+.page-white {
+	background-color: white;
+}
+.page-black {
+	background-color: black;
+}
+.text-white {
+	color: white;
+}
+.hover-red:hover {
+	color: var(--red);
+}
+#anel-triplo {
+	background-image: url(arquivos/aneltriplo-pq.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.show-hover {
+	display: none;
+}
+
+.white-highlight {
+  background-color: rgba(255, 255, 255, 1);
+}
+
+
+/*marcações de texto*/
+
+.link-red {
+	color: var(--red);
+}
+.link-black {
+	color: var(--black);
+}
+.link-underline {
+	text-decoration: underline;
+}
+.show-1, .show-2, .show-3, .show-4, .show {
+	background-color: var(--lightgrey);
+	font-family: inherit;
+}
+/*effects*/
+
+.hidden-1 {
+	width: 100%;
+	display: none;
+}
+.hidden-2 {
+	width: 85%;
+	display: none;
+	text-align: justify;
+	margin: auto;
+	font-size: 0.8em;
+	font-family: inherit;
+}
+.hidden-3 {
+	display: none;
+}
+.hidden-4 {
+	display: none;
+}
+.show-1:hover .hidden-1 {
+	display: block;
+}
+.show-2:hover .hidden-2 {
+	display: block;
+}
+.show-3:hover .hidden-3 {
+	display: block;
+}
+.show-4:hover .hidden-4 {
+	display: block;
+}
