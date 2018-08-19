@@ -103,16 +103,19 @@ body {
   margin-left: 1em;
 }
 
-.prologo {
+.prologo,
+.prologovideo {
   display: flex;
 }
 
 .texto,
-.prologo-texto {
+.prologo-texto,
+.prologovideo-texto {
   width: 70%;
 }
 .notas,
-.prologo-notas {
+.prologo-notas,
+.prologovideo-notas {
   width: 30%;
   padding-left: 1em;
   text-align: justify;
@@ -131,8 +134,14 @@ body {
   width: 100%;
 }
 .vid {
-  width: 70%;
+  width: 100%;
+  background-color: gray;
 }
+.vazio {
+  width: 30%;
+  background-color: pink;
+}
+
 .album {
   display: flex;
   flex-direction: row;
