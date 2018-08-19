@@ -104,18 +104,39 @@ body {
 }
 
 .prologo,
-.prologovideo {
+.prologovideo,
+.introducao,
+.cidades-invisiveis,
+.onde-estamos,
+.um-mundo-de-imagens,
+.valor-da-terra,
+.alem-do-vazio,
+.referencias-bibliograficas {
   display: flex;
 }
 
 .texto,
 .prologo-texto,
-.prologovideo-texto {
+.prologovideo-texto,
+.introducao-texto,
+.cidades-invisiveis-texto,
+.onde-estamos-texto,
+.um-mundo-de-imagens-texto,
+.valor-da-terra-texto,
+.alem-do-vazio-texto,
+.referencias-bibliograficas-texto {
   width: 70%;
 }
 .notas,
 .prologo-notas,
-.prologovideo-notas {
+.prologovideo-notas,
+.introducao-notas,
+.cidades-invisiveis-notas,
+.onde-estamos-notas,
+.um-mundo-de-imagens-notas,
+.valor-da-terra-notas,
+.alem-do-vazio-notas,
+.referencias-bibliograficas-notas {
   width: 30%;
   padding-left: 1em;
   text-align: justify;
