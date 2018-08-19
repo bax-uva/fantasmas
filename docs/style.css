@@ -63,6 +63,9 @@ section p {
   line-height: 1.3em;
 }
 
+.align-right {
+  text-align: right;
+}
 #sans-serif {
   font-family: "Helvetica", sans-serif;
 }
