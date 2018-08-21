@@ -69,7 +69,10 @@ section p {
 #sans-serif {
   font-family: "Helvetica", sans-serif;
 }
-
+li {
+  list-style-type: none;
+  margin-bottom: 0.3em;
+}
 h1 {
   font-size: 1.1em;
 }
@@ -532,6 +535,9 @@ body {
 }
 .margin-top-2 {
   margin-top: 2em;
+}
+.margin-top-5 {
+  margin-top: 5em;
 }
 .margin-right-05 {
   margin-right: 0.5em;
