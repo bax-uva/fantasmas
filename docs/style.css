@@ -189,6 +189,11 @@ body {
 .position-end {
   align-self: flex-end;
 }
+.fim {
+  display: flex;
+  background-color: pink;
+  justify-content: right;
+}
 
 .space-around-row {
   justify-content: space-around;
