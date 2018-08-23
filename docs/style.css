@@ -229,6 +229,10 @@ body {
   opacity: 0.8;
   width: 20%;
 }
+.img-central {
+  display: flex;
+  justify-content: center;
+}
 
 @keyframes full {
   100% {
