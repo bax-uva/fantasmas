@@ -58,10 +58,6 @@ section p {
   margin-top: 1em;
 }
 
-
-section {
-	border: 1px solid red;
-}
 .cursiva {
   font-size: 1.2em;
   font-family: "Yrsa", serif;
@@ -114,12 +110,12 @@ body {
   margin-left: 1em;
 }
 .sub-cap {
-	display: flex;
+  display: flex;
 }
 
 section {
-	display: flex;
-	flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .texto,
@@ -135,7 +131,7 @@ section {
 .alem-do-vazio,
 .referencias-bibliograficas {
   display: flex;
-	flex-direction: column;
+  flex-direction: column;
 }
 
 .texto,
