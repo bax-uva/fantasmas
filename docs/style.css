@@ -99,6 +99,36 @@ body {
   display: flex;
   flex-direction: column;
 }
+
+.title {
+  display: flex;
+}
+.fixed,
+.changed {
+  width: 50%;
+}
+@keyframes switch {
+  0% {
+    background-image: url("./arquivos/title-animation1.svg");
+    background-size: cover;
+  }
+  50% {
+    background-color: transparent;
+  }
+  80% {
+    background-image: url("./arquivos/title-animation2.svg");
+    background-size: cover;
+  }
+  100% {
+    background-image: url("./arquivos/title-animation1.svg");
+    background-size: cover;
+  }
+}
+
+.changed {
+  animation: switch 5s infinite;
+}
+
 .indice-box {
   position: fixed;
   width: 18%;
