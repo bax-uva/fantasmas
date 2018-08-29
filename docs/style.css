@@ -674,6 +674,10 @@ section {
 .hover-red:hover {
   color: var(--red);
 }
+.hover-cyan:hover {
+  color: cyan;
+}
+
 #anel-triplo {
   background-image: url(arquivos/aneltriplo-pq.jpg);
   background-size: cover;
