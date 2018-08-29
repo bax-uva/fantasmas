@@ -689,12 +689,20 @@ section {
   color: cyan;
 }
 
-#anel-triplo {
-  background-image: url(arquivos/aneltriplo-pq.jpg);
+#anel-triplo:hover {
+  background-image: url(arquivos/aneltriplo.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
+
+#anel-triplo {
+  background-image: url(arquivos/mina.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .show-hover {
   display: none;
 }
