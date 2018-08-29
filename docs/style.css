@@ -1,3 +1,18 @@
+/*======
+not mobyle
+=======*/
+
+/*========
+1 - geral
+2 - typography
+3 - layout
+4 - páginas externas
+5 - marcações de texto
+6 - effects
+=======*/
+
+/* 1 - geral */
+
 @import url("https://fonts.googleapis.com/css?family=Yrsa");
 * {
   font-family: "Helvetica", sans-serif;
@@ -11,9 +26,10 @@
   margin: 0;
   padding: 0;
 }
+
+html,
 body {
-  min-width: 100vw;
-  min-height: 100vh;
+  height: 100%;
 }
 
 img {
@@ -29,7 +45,7 @@ a {
 i {
   font-family: inherit;
 }
-/*typography*/
+/* 2 - typography*/
 
 body {
   font-family: sans-serif;
@@ -86,7 +102,7 @@ h3 {
 .p-small {
   font-size: 0.75em;
 }
-/*layout*/
+/* 3 - layout*/
 
 body {
   display: flex;
@@ -98,10 +114,12 @@ body {
   height: 100%;
   display: flex;
   flex-direction: column;
-  overflow: auto;
+  overflow: scroll;
 }
 
 .title {
+  margin: 0 0 2em 0;
+  height: 100px;
   display: flex;
   width: 100%;
 }
@@ -263,6 +281,14 @@ section {
 
 #blue:hover {
   color: blue;
+}
+
+/* 4 - páginas externas */
+
+.page {
+  min-width: 100vw;
+  min-height: 100vh;
+  height: auto;
 }
 
 #ruinas-video {
@@ -662,7 +688,7 @@ section {
   background-color: rgba(255, 255, 255, 1);
 }
 
-/*marcações de texto*/
+/* 5 - marcações de texto */
 
 .link-red {
   color: var(--red);
@@ -681,7 +707,7 @@ section {
   background-color: var(--lightgrey);
   font-family: inherit;
 }
-/*effects*/
+/* 6 - effects */
 
 .hidden-1 {
   width: 100%;
