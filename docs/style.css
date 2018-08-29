@@ -95,18 +95,28 @@ body {
 }
 .indice {
   width: 20%;
-  height: 100vh;
+  height: 100%;
   display: flex;
   flex-direction: column;
+  overflow: auto;
 }
 
 .title {
   display: flex;
+  width: 100%;
 }
-.fixed,
+.fixed {
+  width: 150px;
+  height: 30px;
+}
 .changed {
-  width: 50%;
+  top: -1px;
+  margin-left: 0.3em;
+  width: 150px;
+  height: 30px;
+  animation: switch 5s infinite;
 }
+
 @keyframes switch {
   0% {
     background-image: url("./arquivos/title-animation1.svg");
@@ -125,19 +135,11 @@ body {
   }
 }
 
-.changed {
-  animation: switch 5s infinite;
-}
-
-.indice-box {
-  position: fixed;
-  width: 18%;
-}
 .principal {
-  display: flex;
-  flex-direction: column;
   width: 80%;
   margin-left: 1em;
+  height: 100%;
+  overflow: scroll;
 }
 .sub-cap {
   display: flex;
