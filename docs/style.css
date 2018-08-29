@@ -342,6 +342,17 @@ section {
   color: rgb(255, 0, 255);
 }
 
+#anjo {
+  background-image: url("./arquivos/anjo-de-klee.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#anjo:hover {
+  background-image: url("./arquivos/anjo-de-klee.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
 .money-hidden {
   height: 300px;
   width: 100%;
