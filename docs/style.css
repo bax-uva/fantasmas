@@ -126,9 +126,10 @@ body {
 .fixed {
   width: 150px;
   height: 30px;
+  margin-right: 0.3em;
 }
 .changed {
-  top: -1px;
+  margin-top: 3.5px;
   margin-left: 0.3em;
   width: 150px;
   height: 30px;
@@ -138,14 +139,16 @@ body {
 @keyframes switch {
   0% {
     background-image: url("./arquivos/title-animation1.svg");
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
   }
   50% {
     background-color: transparent;
   }
   80% {
     background-image: url("./arquivos/title-animation2.svg");
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
   }
   100% {
     background-image: url("./arquivos/title-animation1.svg");
