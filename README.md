@@ -6,5 +6,4 @@ experimental: interact/enjoy<br>
 not responsive!<br>
 
 here:<br>
-https://bax-uva.github.io/especular-cidade-imagem/
-
+https://bax-uva.github.io/fantasmas/
