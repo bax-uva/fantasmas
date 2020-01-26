@@ -4,6 +4,3 @@ en - Static website: Renata Passos's Visual Arts Master Thesis for the Federal F
 
 experimental: interact/enjoy<br>
 not responsive!<br>
-
-here:<br>
-https://bax-uva.github.io/fantasmas/
